@@ -1,0 +1,3 @@
+- hosts: alan
+  tasks:
+     - action: ping

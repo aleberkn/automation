@@ -1,0 +1,9 @@
+---
+
+- name: First Playbook
+  gather_facts: false
+  hosts: server1
+  tasks:
+
+    - name: Run a command to clean up subs
+      script: /home/aleberkn/scripts/cleansubs.sh

@@ -1,0 +1,10 @@
+- hosts: alan
+  remote_user: {{ansibleacct}}
+
+- name: include vars file
+  include_vars:
+    file: myvars.yaml
+
+    
+  tasks:
+     - action: ping

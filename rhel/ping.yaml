@@ -1,3 +1,4 @@
+---
 - hosts: alan
   remote_user: {{ansibleacct}}
 

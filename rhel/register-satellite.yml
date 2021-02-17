@@ -1,0 +1,3 @@
+---
+- hosts: olivia
+  remote_user: {{ansibleacct}}

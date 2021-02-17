@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: {{ansibleacct}}
+  remote_user: "{{ansibleacct}}"
 
 - name: include vars file
   include_vars:

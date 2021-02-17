@@ -1,0 +1,6 @@
+---
+-  hosts: all
+   include_vars: myvars.yml
+   remote_user: "{{ beuser }}"
+   tasks:
+      - action: ping

@@ -1,5 +1,8 @@
 ---
-- hosts: all
+- name: ping some stuff
+  gather_facts: false
+  include_vars: myvars.yml
+  hosts: all
   remote_user: ansible
 
   tasks:

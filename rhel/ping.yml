@@ -1,8 +1,6 @@
 ---
 - hosts: all
-  vars_files:
-    - myvars.yml
-  remote_user: "{{beuser}}"
+  remote_user: ansible
 
   tasks:
     action: ping

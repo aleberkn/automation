@@ -1,8 +1,5 @@
 ---
-
-- name: ping some stuff
-  gather_facts: false
-  hosts: all
+- hosts: all
 
   tasks:
     action: ping

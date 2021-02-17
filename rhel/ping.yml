@@ -2,5 +2,5 @@
 -  hosts: all
    remote_user: "ansible"
 
-    tasks:
-       action: ping
+   tasks:
+      action: ping

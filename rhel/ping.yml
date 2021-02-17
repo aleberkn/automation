@@ -3,7 +3,6 @@
 - name: ping some stuff
   gather_facts: false
   hosts: all
-  remote_user: ansible
 
   tasks:
     action: ping

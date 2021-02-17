@@ -1,11 +1,6 @@
 ---
 - hosts: all
-  remote_user: "{{ansibleacct}}"
+  remote_user: ansible
 
-- name: include vars file
-  include_vars:
-    file: myvars.yml
-
-    
   tasks:
-     - action: ping
+    - action: ping

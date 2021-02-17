@@ -1,10 +1,8 @@
 ---
-- name: ping some servers
-  hosts: all
+- include_vars: myvars.yml
+- hosts: all
   remote_user: "{{user}}"
- 
-- name: direct variables from file 
-  include_vars: myvars.yml
 
   tasks:
-    - action: ping
+    name: "ping something"
+    action: ping

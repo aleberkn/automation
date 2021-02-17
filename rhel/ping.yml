@@ -1,6 +1,7 @@
 ---
-- include_vars: myvars.yml
 - hosts: all
+  vars_files:
+    - myvars.yml
   remote_user: "{{user}}"
 
   tasks:

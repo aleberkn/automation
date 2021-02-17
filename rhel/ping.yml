@@ -5,5 +5,4 @@
     - myvars.yml
 
   tasks:
-    name: "ping something"
     action: ping

@@ -1,6 +1,7 @@
 ---
 -  hosts: all
-   vars_file: myvars.yml
+   vars_files:
+    - myvars.yml
    remote_user: "{{ beuser }}"
    
    tasks:

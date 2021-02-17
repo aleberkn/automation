@@ -1,6 +1,7 @@
 ---
 - hosts: all
-  remote_user: ansible
+  include_vars: myvars.yml
+  remote_user: "{{user}}"
 
   tasks:
     - action: ping

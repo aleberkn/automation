@@ -1,2 +1,1 @@
-ansibleacct: ansible
-rootacct: root
+user: ansible

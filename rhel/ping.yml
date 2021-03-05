@@ -1,5 +1,4 @@
 ---
 -  hosts: "*"
-   remote_user: "ansible"
    tasks:
       - action: ping

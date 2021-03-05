@@ -2,7 +2,6 @@
 -  hosts: all
    vars_files:
     - myvars.yml
-   remote_user: "{{ beuser }}"
    
    tasks:
       - action: ping

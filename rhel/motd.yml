@@ -1,0 +1,9 @@
+---
+- name: update motd
+  hosts: alan
+  vars: 
+  remote_user: ansible
+
+  tasks
+    - name: write to motd
+      copy: -a 'content="Managed by Ansible\n" dest=/etc/motd' 

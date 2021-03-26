@@ -2,3 +2,5 @@
 -  hosts: "*"
    tasks:
       - action: ping
+      become: yes
+      become_user: ansible
